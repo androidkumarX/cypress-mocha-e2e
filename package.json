@@ -1,0 +1,14 @@
+{
+  "name": "cypress-mocha-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress E2E suite in plain Mocha style against the OrangeHRM recruitment demo",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
